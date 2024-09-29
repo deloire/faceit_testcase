@@ -9,6 +9,7 @@ public class FaceitTest extends BaseClass {
 
     @Test
     public void checkPlayerStatistics() {
-
+        MainPage mainPage = new MainPage(URL);
+        mainPage.search(SEARCH_PLAYER);
     }
 }
